@@ -1,0 +1,82 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.first-page{
+    padding: 30px;
+    height:85vh;
+    margin: 0 auto;
+    width: 25%;
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 0px 0px 20px black;
+}
+.banner{
+    margin-top:60px;
+}
+.banner img{
+  margin-left: 53px;
+}
+.first-page h1{
+    text-align: center;
+    line-height:60px;
+
+}
+.first-page p{
+     
+    padding: 0px 40px;
+    text-align:center;
+    
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+.btn-login {
+    height: 45px;
+    width: 148px;
+    border-radius: 35px;
+    background:#225dd9;
+    color: whiye;
+    color: white;
+    margin: 10px;
+    border: 1px solid transparent;
+    font-weight:bolder;
+
+}
+.btn-Sign-up{
+    height: 45px;
+    width: 148px;
+    border-radius: 35px;
+    background:transparent;
+    color: whiye;
+    color:black;
+    margin: 10px;
+    font-weight:bolder;
+}
+.social{
+    display: flex;
+    justify-content:center;
+    padding:20px;
+}
+.facebook{
+    height:40px;
+    width: 43px;
+    background-color:white;
+    border: 1px solid blue;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+
+}
+.facebook img{
+    height: 27px;
+    width: 16px;
+}
+
